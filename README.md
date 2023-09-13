@@ -26,4 +26,4 @@
 <br>
 <img src = https://raw.githubusercontent.com/raquel-cmps/Trabalho2-OOP/main/Imagens/Polimorfismo1.png>
 <img src = https://raw.githubusercontent.com/raquel-cmps/Trabalho2-OOP/main/Imagens/Polimorfismo2.png>
-Na primera imagem, a **Classe Gato** utiliza um método da classe mamifero e faz uma modificação porém com "conteúdo" diferente. A mesma coisa acontece na imagem dois, A **Classe Professor** "pega" um método de Funcionario e modifica as implementações lógicas.
+<p>Na primera imagem, a Classe Gato utiliza um método da classe mamifero e faz uma modificação porém com "conteúdo" diferente. A mesma coisa acontece na imagem dois, A Classe Professor "pega" um método de Funcionario e modifica as implementações lógicas. </p>
