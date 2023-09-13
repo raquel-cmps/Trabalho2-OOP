@@ -14,7 +14,7 @@
 # Classe Filha - Pessoa
 <br>
 <img src = https://raw.githubusercontent.com/raquel-cmps/Trabalho2-OOP/main/Imagens/ExtensaoAnimal2.png>
-<p>Aqui, a Classe Pessoa possui uma classe filha "Direta", que é a classe Funcionario.Na qual a Classe Funcionario possui três classes filhas: Professor, Diretor e Secretario.</p>
+<p>Aqui, a Classe Pessoa possui uma classe filha "Direta", que é a classe Funcionario.Na qual, a Classe Funcionario possui três classes filhas: Professor, Diretor e Secretario.</p>
 <br>
 
 # Classe Filha - Funcionario
