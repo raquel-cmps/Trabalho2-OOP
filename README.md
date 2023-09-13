@@ -22,8 +22,8 @@
 <img src = https://raw.githubusercontent.com/raquel-cmps/Trabalho2-OOP/main/Imagens/ExtensaoPessoa.png>
 <br>
 
-# Polimorfismo
+# Exemplo de Polimorfismo
 <br>
-<img src = https://raw.githubusercontent.com/raquel-cmps/Trabalho2-OOP/main/Imagens/Polimorfismo1.png>
-<img src = https://raw.githubusercontent.com/raquel-cmps/Trabalho2-OOP/main/Imagens/Polimorfismo2.png>
-<p>Na primera imagem, a Classe Gato utiliza um método da classe mamifero, porém com um "conteúdo" diferente. A mesma coisa acontece na imagem dois, a Classe Professor "pega" um método de Funcionario e modifica as implementações lógicas. </p>
+<img src = https://raw.githubusercontent.com/raquel-cmps/Trabalho2-OOP/main/Imagens/Polimorfismo.png>
+<p>Nessa imagem é posível visualizar que eu passo um objeto do tipo Funcionario e que está associado a subclasse Professor. Pois um professor continua sendo um funcionario, porém com especificações de Professor.</p>
+<p>No decorrer do projeto, terão outros exemplos de polimorfismo</p>
