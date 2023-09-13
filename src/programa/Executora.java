@@ -47,12 +47,12 @@ public class Executora {
         int quantCachorro = 0;
 
         do{
-            switch (op){
-                case 1:
+            switch (op) {
+                case 1 -> {
                     System.out.println("Informe a quantidade de gatos que deseja adicionar");
                     quantGatos = src.nextInt();
-                    if(quantGatos > 0){
-                        for(int i = 0; i < quantGatos; i++){
+                    if (quantGatos > 0) {
+                        for (int i = 0; i < quantGatos; i++) {
                             vetorGato[i] = NovoObjeto.addGato();
                             System.out.println("Gato adicionado com sucesso!");
                             System.out.println();
@@ -60,16 +60,14 @@ public class Executora {
                     } else {
                         System.out.println("NUMERO INVALIDO, POR FAVOR TENTE OUTRA VEZ");
                     }
-
                     menu();
                     op = src.nextInt();
-                    break;
-
-                case 2:
+                }
+                case 2 -> {
                     System.out.println("Informe a quantidade de cachorros que deseja adicionar");
                     quantCachorro = src.nextInt();
-                    if(quantCachorro > 0){
-                        for(int i = 0; i < quantCachorro; i++){
+                    if (quantCachorro > 0) {
+                        for (int i = 0; i < quantCachorro; i++) {
                             vetorCachorro[i] = NovoObjeto.addCachorro();
                             System.out.println("Cachorro adicionado com sucesso!");
                             System.out.println();
@@ -77,15 +75,13 @@ public class Executora {
                     } else {
                         System.out.println("NUMERO INVALIDO, POR FAVOR TENTE OUTRA VEZ");
                     }
-
                     menu();
                     op = src.nextInt();
-                    break;
-
-                case 3:
+                }
+                case 3 -> {
                     //IMPRIMINDO GATOS
                     System.out.println("GATOS");
-                    for(int i = 0; i < quantGatos; i++){
+                    for (int i = 0; i < quantGatos; i++) {
                         System.out.println("Nome: " + vetorGato[i].getNome());
                         System.out.println("Idade: " + vetorGato[i].getIdade());
                         System.out.println();
@@ -96,7 +92,7 @@ public class Executora {
 
                     //IMPRIMINDO CACHORROS
                     System.out.println("CACHORROS");
-                    for(int i = 0; i < quantCachorro; i++){
+                    for (int i = 0; i < quantCachorro; i++) {
                         System.out.println("Nome: " + vetorCachorro[i].getNome());
                         System.out.println("Idade: " + vetorCachorro[i].getIdade());
                         System.out.println();
@@ -104,12 +100,10 @@ public class Executora {
                     Mamifero cachorro = new Cachorro();
                     cachorro.Som();
                     System.out.println("------------------------------------------------------------------------------");
-
                     menu();
                     op = src.nextInt();
-                    break;
-
-                case 4:
+                }
+                case 4 -> {
                     vetorAluno[1] = Objetos.aluno1;
                     vetorAluno[2] = Objetos.aluno2;
                     vetorAluno[3] = Objetos.aluno3;
@@ -118,7 +112,7 @@ public class Executora {
                     vetorAluno[6] = Objetos.aluno6;
 
                     //IMPRIMINDO ALUNOS
-                    for(int i = 1; i < 7; i++){
+                    for (int i = 1; i < 7; i++) {
                         System.out.println("INFORMACOES SOBRE O ALUNO " + i);
                         System.out.println("NOME: " + vetorAluno[i].getNome());
                         System.out.println("IDADE: " + vetorAluno[i].getIdade());
@@ -129,15 +123,12 @@ public class Executora {
                     }
                     menu();
                     op = src.nextInt();
-                    break;
-
-                case 5:
+                }
+                case 5 -> {
                     vetorFuncioanrio[1] = Objetos.professor;
                     vetorFuncioanrio[2] = Objetos.diretor;
                     vetorFuncioanrio[3] = Objetos.secretario;
-
-
-                    for(int i = 1; i < 4; i++){
+                    for (int i = 1; i < 4; i++) {
                         System.out.println("INFORMACAO SOBRE O FUNCIONARIO");
                         System.out.println("NOME: " + vetorFuncioanrio[i].getNome());
                         System.out.println("IDADE: " + vetorFuncioanrio[i].getIdade());
@@ -146,20 +137,18 @@ public class Executora {
                         System.out.println("Formacao: " + vetorFuncioanrio[i].getFormacao());
                         System.out.println("--------------------------------------------------------------------------");
                     }
-
                     System.out.println("Bonificaçao do professor: " + professor.getBonificacao());
                     System.out.println("Bonificaçao do diretor: " + diretor.getBonificacao());
                     System.out.println("Bonificaçao do secretario " + secretario.getBonificacao());
-
+                    System.out.println();
                     menu();
                     op = src.nextInt();
-                    break;
-
-                default:
+                }
+                default -> {
                     System.out.println("OPCAO INVALIDA!");
                     menu();
                     op = src.nextInt();
-                    break;
+                }
             }
 
 
