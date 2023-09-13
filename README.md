@@ -4,14 +4,12 @@
 # Classe Mae - Animal
 <br>
 <img src = https://raw.githubusercontent.com/raquel-cmps/Trabalho2-OOP/main/Imagens/ClasseMae.png>
-<p>Todas as outras Classe do meu programa hendam a Classe Animal </p>
-<br>
+<p>Todas as outras Classe do meu programa hendam a Classe Animal, direta ou indiretamente </p>
 
 ## Classes Filha - Mamifero
 <br>
 <img src = https://raw.githubusercontent.com/raquel-cmps/Trabalho2-OOP/main/Imagens/ExtensaoAnimal.png>
 <p>Mamifero possui duas classes filhas: Cachorro e Gato</p>
-<br>
 
 ## Classe Filha - Pessoa
 <br>
@@ -21,8 +19,8 @@
 <br>
 
 ## Classe Filha - Funcionario
-<img src = https://raw.githubusercontent.com/raquel-cmps/Trabalho2-OOP/main/Imagens/ExtensaoPessoa.png>
 <br>
+<img src = https://raw.githubusercontent.com/raquel-cmps/Trabalho2-OOP/main/Imagens/ExtensaoPessoa.png>
 
 ## Polimorfismo
 <br>
