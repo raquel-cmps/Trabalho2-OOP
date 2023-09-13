@@ -4,18 +4,17 @@
 # Classe Mae - Animal
 <br>
 <img src = https://raw.githubusercontent.com/raquel-cmps/Trabalho2-OOP/main/Imagens/ClasseMae.png>
-<p>Todas as outras Classe do meu programa hendam a Classe Animal, direta ou indiretamente </p>
+<p>Todas as outras Classe do meu programa hendam a Classe Animal, direta ou indiretamente. </p>
 
 # Classes Filha - Mamifero
 <br>
 <img src = https://raw.githubusercontent.com/raquel-cmps/Trabalho2-OOP/main/Imagens/ExtensaoAnimal.png>
-<p>Mamifero possui duas classes filhas: Cachorro e Gato</p>
+<p>Mamifero possui duas classes filhas: Cachorro e Gato.</p>
 
 # Classe Filha - Pessoa
 <br>
 <img src = https://raw.githubusercontent.com/raquel-cmps/Trabalho2-OOP/main/Imagens/ExtensaoAnimal2.png>
-<p> Aqui, a Classe Pessoa possui uma classe filha "Direta", que é a classe Funcionario.</p>
-<p>Na qual a Classe Funcionario possui três classes filhas: Professor, Diretor e Secretario</p>
+<p> Aqui, a Classe Pessoa possui uma classe filha "Direta", que é a classe Funcionario.Na qual a Classe Funcionario possui três classes filhas: Professor, Diretor e Secretario.</p>
 <br>
 
 # Classe Filha - Funcionario
