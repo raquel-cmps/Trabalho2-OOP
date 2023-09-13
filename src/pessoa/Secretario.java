@@ -7,8 +7,6 @@ public class Secretario extends Funcionario{
 
     public Secretario() {
     }
-
-    //POLIMORFISMO
     @Override
     public double getBonificacao() {
         return super.getBonificacao() + 500;

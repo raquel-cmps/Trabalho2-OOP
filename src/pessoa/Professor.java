@@ -9,7 +9,7 @@ public class Professor extends Funcionario{
     public Professor() {
     }
 
-    //POLIMORFISMO
+
     @Override
     public double getBonificacao() {
         return super.getBonificacao() + 900;

@@ -27,6 +27,8 @@ public class Executora {
         Cachorro[] vetorCachorro = new Cachorro[50];
         Aluno[] vetorAluno = new Aluno[50];
         Funcionario[] vetorFuncioanrio = new Funcionario[50];
+
+        //POLIMORFISMO
         Funcionario professor = new Professor();
         Funcionario diretor = new Diretor();
         Funcionario secretario = new Secretario();

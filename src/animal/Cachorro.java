@@ -8,7 +8,6 @@ public class Cachorro extends Mamifero {
     public Cachorro() {
     }
 
-    //POLIMORFISMO
     @Override
     public void Som() {
         System.out.println("O cachorro faz: au au");

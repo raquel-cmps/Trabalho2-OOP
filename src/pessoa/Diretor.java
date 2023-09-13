@@ -8,7 +8,7 @@ public class Diretor extends Funcionario{
     public Diretor() {
     }
 
-    //POLIMORFISMO
+
     @Override
     public double getBonificacao() {
         return super.getBonificacao() + 1000;
