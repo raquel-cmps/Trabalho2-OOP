@@ -1,7 +1,7 @@
 package pessoa;
 
-import animal.Animal;
 //CLASE "MÃE 2"
+import animal.Animal;
 public abstract class Pessoa extends Animal {
     private String cpf;
 
